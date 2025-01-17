@@ -13,9 +13,9 @@ Then user enter the '<firstName>','<Last_Name>' and '<Zip_Postalcode>' and click
 Then click on the "Finish" order is placed successfully
 
 Examples:
-  |  url                        | user_name                 |     Password  |       product       | firstName  | Last_Name  | Zip_Postalcode |
+  |  url                        | user_name                 |     Password  |       product       | firstName   | Last_Name  | Zip_Postalcode |
   | https://www.saucedemo.com   | standard_user             | secret_sauce  | Sauce Labs Backpack |   priya     |   akula    |     2151       |
-  #| https://www.saucedemo.com   | performance_glitch_user   | secret_sauce  |
+  | https://www.saucedemo.com   | performance_glitch_user   | secret_sauce  | Sauce Labs          |a            | B          |   2140         |
  # | https://www.saucedemo.com   | problem_user              | secret_sauce  |
 
 #Scenario Outline: Place order successfully
