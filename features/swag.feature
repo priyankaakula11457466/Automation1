@@ -16,12 +16,12 @@ Examples:
   |  url                        | user_name                 |     Password  |       product       | firstName   | Last_Name  | Zip_Postalcode |
   | https://www.saucedemo.com   | standard_user             | secret_sauce  | Sauce Labs Backpack |   priya     |   akula    |     2151       |
   | https://www.saucedemo.com   | performance_glitch_user   | secret_sauce  | Sauce Labs          |a            | B          |   2140         |
- # | https://www.saucedemo.com   | problem_user              | secret_sauce  |
+  | https://www.saucedemo.com   | problem_user              | secret_sauce  |   git test
 
 #Scenario Outline: Place order successfully
 #Given Navigate the App via '<url>'
 #When user enter the '<user_name>' and '<Password>' And click login
-#Then the user is logged-in successfully and user lands on the products page
+#Then the user is logged-in successfully and user lands on the products page 
 #When user select a product 
 #And clicks on the "add to cart" item added to the cart 
 #And click on the "cart" to open cart page 
